@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+  <title>Cheng-Ying Tsai's Homepage</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Cheng-Ying Tsai is currently a professor of School of Electrical and Electronics Engineering (SEEE), working as an accelerator physicist at Huazhong University of Science and Technology (HUST)">
+  <meta name="keywords" content="Cheng-Ying Tsai, 蔡承颖, accelerator, free-electron laser, FEL, microbunching, coherent synchrotron radiation, CSR, SSMB, steady-state microbunching, ultrafast electron, UED, space charge">
+  <meta name="author" content="Cheng-Ying Tsai" />
+
+  <link rel="stylesheet" href="w3.css">
+
+  <style>
+  .w3-sidebar a {font-family: "Roboto", sans-serif}
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+  </style>
+
+  <link rel="icon" type="image/png" href="images/icons.png">
+  <!--
+  <script src="jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+        // Store hash
+        var hash = this.hash;
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+  //-->
+
+</head>
+
+
+<body class="w3-content" style="max-width:1000px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <h3><b> </b></h3>
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#news" class="w3-bar-item w3-button">News</a>
+    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+
+    <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+    <a href="#notes" class="w3-bar-item w3-button">Notes</a>
+    <a href="#teach" class="w3-bar-item w3-button">Teach</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24"> </div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:150px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+<!-- The Home Section -->
+    <div class="w3-container w3-center w3-padding-32" id="home">
+      <img style="width: 20%;max-width: 280px" alt="profile photo" src="images/Tsai_SLAC_Chu_pic.jpg">
+      <h4>Cheng-Ying Tsai</h4>
+	<p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+	我近期的研究兴趣为高亮度电子束的传输动力学与加速器系统中的尾场/阻抗的计算，特别是束流集体不稳定性、电子相干辐射机制研究，与中低能束流空间电荷效应等问题。研究方法倾向于根据相应的物理模型建立解析或半解析理论，利用全数值方法如粒子追踪模拟(particle tracking)或粒子网格模拟(particle in cell)等比较并验证理论的正确性。目前感兴趣的课题包含，但不限于，高亮度(高电流、低能散、低发散度)电子在直线(linac)或能量循环/回收型(recirculation/energy-recovery-linac, ERL)，及储存环(storage ring)、稳态微聚束储存环(steady state microbunching, SSMB)等加速器系统中的(集体)动力学，超快电子衍射/显微(ultrafast electron diffraction/microscope, UED/M)成像装置中的电子动力学问题，与自由电子激光理论(free-electron laser, FEL)理论等。
+	</p>
+	<p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+	对加速器动力学相关课题感兴趣的同学，中高年级本科生或即将就读硕、博研究生的同学，欢迎联系。邮件标题或内容请提及关键字。
+	</p>
+        <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+          I work on accelerator physics at <a href="http://seee.hust.edu.cn/">SEEE</a> of  of <a href="http://hust.edu.cn/">HUST</a>, Wuhan. My research interests are high-brightness electron beam dynamics, including, not limited to, collective effects in linear accelerators, storage rings, and recirculating accelerators (energy recovery linac, ERL), free-electron lasers (FEL), low-energy space-charge beam dynamics (e.g., ultrafast electron diffraction, UED/M), steady-state microbunching (SSMB).  
+        </p>
+        <p class="w3-center">
+          <a href="mailto:jcytsai@hust.edu.cn">Email</a> &nbsp/&nbsp
+          <a href="https://scholar.google.com/citations?user=aLGnZRsAAAAJ&hl=en">Google Scholar</a>
+        </p>
+        </tbody></table>
+  </div>
+
+<!-- The News Section -->
+  
+  <div class="w3-container w3-light-grey w3-padding-32" id="news">
+   <h2>News</h2>
+      <p><li> 2023/05/07: Draft homepage successfully compiled </li></p>
+	  
+	  
+      <!--
+      <p><li> 01/2021, I will give a talk about AdderNet at <a href="https://haet2021.github.io/speakers.html">HAET ICLR 2021 workshop</a>.</li></p>
+      -->
+
+  </div>
+<!-- The Projects Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h2>Recent Projects</h2>
+	
+	<h4><li>Microbunching instability in a storage ring </li></h4>
+	<p class="w3-justify">
+	To be updated...
+	</p>
+	<h4><li>Multi-FELOs Driven by a Common Electron Beam </li></h4>
+	<p class="w3-justify">
+	This is an interesting and ongoing topic, with original idea from (and recently collaborated with) Y. Zhang (JLab). Generating an x-ray free electron laser (FEL) requires a high brightness electron beam from a big, complex and expensive multi-GeV linear RF accelerator. To produce multiple x-ray FEL beams, the linac electron beam must be shared to enable one beam driving a single undulator. This results in low average electron current and compromised FEL performance. Recently, a concept of multiple x-ray FEL beams driven by one common electron beam was proposed, which enables substantial reduction of required equipment and improvement of productivity. In this paper, we present a simulation study to demonstrate this innovative concept could work. The system consists of two oscillator-type x-ray FEL devices arranged side-by-side and one electron beam passing through them. As such, the second, downstream x-ray FEL oscillator is driven by electron bunches already been used once while the first x-ray FEL oscillator always receives fresh electron bunches from the linac. The simulations were based on the 1-D FEL model. The study shows that lasing could be achieved for both x-ray FEL oscillators, their radiation field intensities at saturation can be comparable, thus meet demanding needs of users. The concept also enables a potential application using a circulator ring such that an oscillator can be driven alternately by fresh electron bunches from the linear accelerator and used bunches in the circulator ring.
+	</p>
+	<img style="width:80%;" src="images/XFELOx2_01.png"> 
+
+        <h4><li>Analytical analysis of high harmonic microbunching for seeded FELs | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0168900222012669">paper</a></li></h4>
+        <img style="width:80%;" src="images/DEHG_01.png"> 
+	
+        <p class="w3-justify">
+	Short-wavelength single-pass free electron lasers (FEL) are capable of generating transverse-coherent and high-power radiations. Compared with the self-amplified spontaneous emission (SASE) FEL scheme, seeded FEL schemes can, in principle, improve the longitudinal coherence of radiation pulses. In recent years, the research community has pursued the realization of high-repetition-rate (MHz) and high-average-power (kW) seeded FELs. To alleviate the requirements of external seeding lasers, many novel seeding schemes have been proposed, which are currently limited by the state-of-the-art laser systems. An analytical study of a recently proposed seeding scheme based on direct-amplification-enabled harmonic generation (DEHG) is presented herein. In contrast to the complete numerical simulations and optimization design, this study starts from one-dimensional FEL equations of motion and derives an analytical formula for the harmonic bunching factor at the chicane exit after the electron beam traverses the modulator undulator. Additionally, to obtain a quick estimate of downstream high-gain FEL performance, we constructed a linear high-gain FEL transport matrix, including the three-dimensional effects incorporated by the Ming-Xie formula. As an application of the analytical formulas, we discuss three different cases for designing and optimizing the seeding scheme. We expect this analytical approach to shed light on seeding designs that aim to produce the desired high-brightness mirobunched electron beam.
+	</p>
+
+
+        <h4><li>Single-pass multi-bunch beam breakup instability | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.24.114401">paper</a></li></h4>
+        <img style="width:80%;" src="images/MBSTCSR_01.png"> 
+	
+        <p class="w3-justify">
+        It has been known that a high-brightness electron beam emits broadband synchrotron radiation when traversing a curved orbit. The radiation reaction at wavelengths comparable to the bunch length or to the wavelength of a phase space modulated beam may lead to collective instabilities. In this paper, we investigate a potential single-pass instability mechanism of coherent-radiation-induced longitudinal multibunch beam breakup (BBU) instability in the presence of a closely spaced microbunch train in an undulator, particularly when the microbunch spacing is close to the resonant wavelength of the undulator. This problem is formulated based on the macroparticle model together with the slippage constraint on the beam-wave interaction. The set of coupled differential equations for individual microbunches can be solved analytically for the first few microbunches with linearization of the coherent radiation wakefield, and numerically in general nonlinear cases for unequal spacing or nonuniform filling charges. The underlying mechanisms, including the slippage effect, the potential-well effect leading to extra focusing, dependence of microbunch spacing and filling patterns, are discussed. The analysis is then applied to the recently proposed steady-state microbunching (SSMB) mechanism with two examples serving for the high average coherent radiation power sources for extreme ultraviolet (EUV) and infrared wavelength regions. For the specific scenario considered in this paper, it is found that when the microbunch spacing is close to the fundamental resonant wavelength, the coherent radiation can provide extra longitudinal focusing for the individual microbunches, leading to more stable multibunch oscillations. For the preliminary nominal SSMB designs with the average beam current of 1 A, our studies show that the single-pass longitudinal BBU instability should not be a severe issue.
+        </p> 
+
+        <h4><li>Multi-pass single-bunch FEL-like instability | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S016890022200746X?via%3Dihub">paper01</a> | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.25.064401">paper02</a> </li></h4>
+        <img style="width:60%;" src="images/SBMTCSR_01.png">  
+        
+        <p class="w3-justify">
+        Recently a mechanism of storage ring operation based on the steady-state microbunching has been proposed and investigated, which contains a laser cavity modulator providing the longitudinal focusing for the circulating microbunches. In this paper we analyze the impact of the coherent undulator radiation on the longitudinal single-bunch multi-turn collective dynamics, exploring a new possible instability mechanism. We formulate the multi-turn equations of motion for the single microbunch as two sets of difference equations in the modulator and in the remaining storage ring. The dispersion equation can then be obtained by introduction of the undulator-averaged phase space coordinates. The predicted instability growth rate shows reasonable agreement with the numerical turn-by-turn tracking simulations provided validity of the underlying assumptions. The analysis shall provide some insights for the coherent undulator radiation driven multi-turn instability in the cavity modulator. Differences between such a new instability mechanism and the Robinson instability in a conventional radio-frequency-based storage ring are also discussed. 
+        </p>  
+	<img style="width:100%;" src="images/SBMTCSR_02.png">
+
+	<h4><li>Fast and efficient bunch slice-by-slice tracking for a high-bightness electron beam transport | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0168900219306679?via%3Dihub">paper</a></li></h4>
+        <img style="width:60%;" src="images/BeamEnvelope_01.png">
+        <p class="w3-justify">
+        Preserving the phase space quality has been of crucial importance to high-brightness electron beam transport. Any driving source of beam performance limitations in such a transport system must be carefully examined in order to preserve the beam phase space quality. It is found that in the low beam energy, high bunch charge regime, space charge effect on the charged particle beam evolution can be complicated. It may be insufficient to analyze the beam properties through the envelope or lower order moments for the mere bulk of the beam. In this work we will study the space-charge-dominated, low-energy, high-brightness electron beam dynamics based on the slice beam matrix method. The slice beam matrix method, extended from the existing bulk beam analysis, is applicable to an arbitrary longitudinal bunch distribution and can thus take the nonlinear RF curvature into account. The semi-analytical sliced beam space charge model is constructed and assumes an axisymmetric beam in the presence of perfect conducting cylindrical pipe with circular cross section. We present in this paper the theoretical formulation, starting from single-particle dynamics, space charge field calculation, followed by the moment description of a collection of particles, based on beam sigma matrix and longitudinal slice decomposition. We prove the equivalence between the beam matrix method and the envelope formalism in the presence of space charge effect, in both the transverse and longitudinal dimensions. Two examples are then demonstrated, one for a unit cell of superconducting radio-frequency (RF) cavity and the other for a 1.5-cell RF gun system. The semi-analytical results from beam matrix calculation are discussed and compared with particle tracking simulation using ASTRA. We expect that the analysis based on the slice beam matrix method shall serve as an efficient and advanced tool to further investigate the low-energy high-brightness electron beam dynamics.
+	</p>
+
+
+	<h4><li>Single-pass microbunching instability in linear or recirculating accelerators </li></h4>
+        
+        <p class="w3-justify">
+        In recent years we continue to extend/develop a theoretical formulation to single-pass microbunching instability in linear or recirculating accelerators by including both horizontal and vertical bends (where CSR come into play), transversely coupled (magnetized) beam, generic conditions for suppression of the microbunching instabilities, and incoherent intrabeam scattering (IBS). See <a href="#publications">Publications</a> for more detals.
+	</p>
+	<p class="w3-justify">
+	We also develop a semi-analytical Vlasov solver for efficient calculation of the microbunching gain for a gener linear transport lattice. This solver, volterra, is by written by MATLAB, GUI-based, incorporated with particle tracking code ELEGANT. See <a href="https://github.com/jcytsai/volterra_mat/tree/volterra_mat_v5.1"> source code </a> for more details.
+        </p>
+	<img style="width:80%;" src="images/volterra_v5.1_ss.png"> 
+	<img style="width:80%;" src="images/volterra_cap_v5.1.png">
+
+	<h4><li>Post-saturation dynamics of single-pass free-electron lasers | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.20.120702">paper01</a> | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.21.060702">paper02</a> | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0168900218313767">paper03</a></li></h4>
+	<p class="w3-justify">
+	When an untapered high-gain free electron laser (FEL) reaches saturation, the exponential growth ceases and the radiation power starts to oscillate about an equilibrium. The FEL radiation power or efficiency can be increased by undulator tapering. For a high-gain tapered FEL, although the power is enhanced after the first saturation, it is known that there is a so-called second saturation where the FEL power growth stops even with a tapered undulator system. The sideband instability is one of the primary reasons leading to this second saturation. In this paper, we provide a quantitative analysis on how the gradient of undulator tapering can mitigate the sideband growth. The study is carried out semianalytically and compared with one-dimensional numerical simulations. The sideband field gain and the evolution of the radiation spectra for different gradients of undulator tapering are examined. It is found that a strong undulator tapering (∼10%) provides effective suppression of the sideband instability in the postsaturation regime. Moreover, in this regime the gain guiding decreases and the simple constant detune is no longer valid. In this paper we study the single-pass high-gain FEL performance in the post-saturation regime with inclusion of diffraction effect and undulator tapering. Our analysis relies upon two constants of motion, one from the energy conservation and the other from the adiabatic invariant of the action variable. By constructing a two-dimensional axisymmetric wave equation and the coupled one-dimensional electron dynamical equations, the performance of a tapered FEL in the postsaturation regime can be analyzed, including the fundamental mode profile, the power efficiency and the scaled energy spread. We begin the analytical investigation with two different axisymmetric electron beam profiles, the uniform and bounded parabolic ones. It is found that the tapered FEL power efficiency can be smaller but close to the taper ratio provided the resonant phase remains constant and the beam-wave is properly matched. Such a tapered efficiency is nearly independent of transverse electron beam size before significant electron detrapping occurs. This is essentially different from the untapered case, where the power extraction efficiency is around the essential FEL gain bandwidth (or ρ, the Pierce or FEL parameter) and depends on the beam size. It is also found that the power enhancement due to undulator tapering is attributed more by the field increase outside the transverse electron beam than that inside the transverse electron beam. 
+	</p>
+
+	<h4><li>Coherent synchrotron radiation (CSR) wakes and impedances for low-energy beams | <a style="color: #447ec9" href="https://accelconf.web.cern.ch/ipac2015/papers/mopmn004.pdf">paper01</a> | <a style="color: #447ec9" href="https://accelconf.web.cern.ch/ipac2017/papers/wepik113.pdf">paper02</a> </li></h4>
+	<p class="w3-justify">
+	For the analysis of CSR induced microbunching gain in the low energy regime, such as when a high-brightness electron beam is transported through a low-energy merger in an energy-recovery linac (ERL) design, it is necessary to extend the existing CSR impedance expression from the ultrarelativistic limit to the non-ultrarelativistic regime. Analytical expression of CSR impedance is necessary for the study of the CSR-induced microbunching instability. We derived analytical formulas for the steady-state, the transient CSR impedance of the entrance and exit cases for the non-ultrarelativistic regime, and show that the new results reduce to the existing expressions at the ultrarelativistic limit.
+	</p>
+
+  </div>
+  
+
+
+
+ <!-- The Publications Section -->
+  <div class="w3-container w3-padding-32"" id="publications">
+    <h2>Publications</h2>
+      
+    <h4> Journal Papers:</h4>
+	<p>
+	NOTE: The following only collects those I am the first author or those I think I primarily contributed to. For a complete list, see <a href="https://scholar.google.com/citations?user=aLGnZRsAAAAJ&hl=en">Google Scholar</a>.
+	</p>
+    <ol>
+							    
+      <p>
+      <li>Analytical study of higher harmonic bunching and matrix formalism in linear high-gain free-electron laser model</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, J. Zhou, X. Wang and L. Zeng
+      <br>
+      Nucl. Instru. Methods A 1048, 167974 (2023) | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0168900222012669">paper</a> 
+      </p>
+
+      <p>
+      <li>MeV electron bunch compression and timing jitter suppression using a THz-driven resonator</strong>
+      <br>
+      Y. Song, <strong>C.-Y. Tsai</strong>, K. Fan, J. Yang, and H. Qi
+      <br>
+      Nucl. Instru. Methods A 1047, 167774 (2023) | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S016890022201066X">paper</a> 
+      </p>
+
+      <p>
+      <li>Longitudinal single-bunch instabilities driven by coherent undulator radiation in the cavity modulator of a steady-state microbunching storage ring</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>
+      <br>
+      Nucl. Instru. Methods A 1042, 167454 (2022) | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S016890022200746X">paper</a> 
+      </p>
+
+      <p>
+      <li>Theoretical formulation of multi-turn collective dynamics in a laser cavity modulator with comparison to Robinson and high-gain free-electron laser instability</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>
+      <br>
+      Phys. Rev. Accel. Beam 25, 064401 (2022) | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.25.064401">paper</a> 
+      </p>
+
+      <p>
+      <li>Coherent radiation induced longitudinal single-pass beam breakup instability of a steady-state microbunch train in an undulator</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, A.W. Chao, Y. Jiao, H.-W. Luo, M. Ying, and Q. Zhou
+      <br>
+      Phys. Rev. Accel. Beam 24, 114401 (2021) | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.24.114401">paper</a> 
+      </p>
+
+      <p>
+      <li>Isochronous and CSR-immune triple-bend achromat with periodic stable optics</strong>
+      <br>
+      C. Zhang, Y. Jiao, and <strong>C.-Y. Tsai</strong>
+      <br>
+      Phys. Rev. Accel. Beams 24, 060701 (2021) | <a style="color: #447ec9" href="https://journals.aps.org/prab/pdf/10.1103/PhysRevAccelBeams.24.060701">paper</a> 
+      </p>
+
+      <p>
+      <li>Semi-analytical analysis of high-brightness microbunched beam dynamics with collective and intrabeam scattering effects</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong> and W .Qin
+      <br>
+      Phys. Plasmas 28, 013112 (2021) | <a style="color: #447ec9" href="https://doi.org/10.1063/5.0038246">paper</a> 
+      </p>
+
+      <p>
+      <li>Analytical model of the streaking process in a single split-ring resonator for sub-ps electron pulse</strong>
+      <br>
+      Y. Song, <strong>C.-Y. Tsai</strong>, K. Fan, Y. Xu, and J. Yang
+      <br>
+      Nucl. Instru. Methods A 987, 164861 (2020) | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0168900220312584">paper</a> 
+      </p>
+
+      <p>
+      <li>Theoretical formulation of phase space microbunching instability in the presence of intrabeam scattering for single-pass or recirculation accelerators</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, W. Qin, K. Fan, X. Wang, J. Wu, and G. Zhou
+      <br>
+      Phys. Rev. Accel. Beams 23, 124401 (2020) | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.23.124401">paper</a> 
+      </p>
+
+      <p>
+      <li>An alternative view of coherent synchrotron radiation induced microbunching development in multibend recirculation arcs</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>
+      <br>
+      Nucl. Instru. Methods A 943, 162499 (2019) | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0168900219310423">paper</a> 
+      </p>
+
+      <p>
+      <li>Concatenated analysis of phase space microbunching in high brightness electron beam transport</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>
+      <br>
+      Nucl. Instru. Methods A 940, 462-474 (2019) | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0168900219309064">paper</a> 
+      </p>
+
+      <p>
+      <li>Low-energy high-brightness electron beam dynamics based on slice beam matrix method</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, K. Fan, G. Feng, J. Wu, G. Zhou, and Y. H. Wu
+      <br>
+      Nucl. Instru. Methods A 937, 1-20 (2019) | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0168900219306679?via%3Dihub">paper</a> 
+      </p>
+
+      <p>
+      <li>Area preserving scheme for eﬀiciency enhancement in a single-pass tapered FEL</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, C. Emma, J. Wu, C. Yang, M. Yoon, and G. Zhou
+      <br>
+      Nucl. Instru. Methods A 913, 107-119 (2019) | <a style="color: #447ec9" href="https://www.sciencedirect.com/science/article/abs/pii/S0168900218313767">paper</a> 
+      </p>
+
+      <p>
+      <li>Single-pass high-gain free-electron laser with transverse diffraction in the post-saturation regime</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, J. Wu, C. Yang, M. Yoon, and G. Zhou
+      <br>
+      Phys. Rev. Accel. Beams 21, 060702 (2018) | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.21.060702">paper</a> 
+      </p>
+
+      <p>
+      <li>Sideband instability analysis based on a one-dimensional high-gain free electron laser model</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, J. Wu, C. Yang, M. Yoon, and G. Zhou
+      <br>
+      Phys. Rev. Accel. Beams 20, 120702 (2017) | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.20.120702">paper</a> 
+      </p>
+
+      <p>
+      <li>Vlasov analysis of microbunching instability for magnetized beams</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, Ya. Derbenev, D. Douglas, R. Li, and C. Tennant
+      <br>
+      Phys. Rev. Accel. Beams 20, 054401 (2017) | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.20.054401">paper</a> 
+      </p>
+
+      <p>
+      <li>Conditions for coherent-synchrotron-radiation-induced microbunching suppression in multi-bend beam transport or recirculation arcs</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, S. Di Mitri, D. Douglas, R. Li, and C. Tennant
+      <br>
+      Phys. Rev. Accel. Beams 20, 024401 (2017) | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.20.024401">paper</a> 
+      </p>
+
+      <p>
+      <li>Linear Microbunching Analysis for Recirculation Machines</strong>
+      <br>
+      <strong>C.-Y. Tsai</strong>, D. Douglas, R. Li, and C. Tennant
+      <br>
+      Phys. Rev. Accel. Beams 19, 114401 (2016) | <a style="color: #447ec9" href="https://journals.aps.org/prab/abstract/10.1103/PhysRevAccelBeams.19.114401">paper</a> 
+      </p>
+      
+      <p>
+      <li>Study of a High-Order-Mode Gyrotron Traveling-Wave Amplifier</strong>
+      <br>
+      C.C. Chiu, <strong>C.-Y. Tsai</strong>, S.H. Kao, K.R. Chu, L.R. Barnett, and N.C. Luhmann
+      <br>
+      Physics of Plasmas 17, 113104 (2010) | <a style="color: #447ec9" href="https://doi.org/10.1063/1.3505945">paper</a> 
+      </p>
+      
+
+      </ol>
+
+      <h4> Conference Papers:</h4>
+	<p> See <a href="https://scholar.google.com/citations?user=aLGnZRsAAAAJ&hl=en">Google Scholar</a> for a complete list. </p>
+      <ol>
+
+      </ol>
+
+    </p>
+  </div>
+
+    
+
+<!-- The Notes Section -->
+  <div class="w3-container w3-padding-32"" id="notes">
+    <h2>Notes</h2>
+      
+    <h4> Monthly Reading Notes:</h4>
+
+    <ol>
+							    
+      <p>
+      <li>2023/04 | <a style="color: #447ec9" href="data/导读_2023年_4月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2023/03 | <a style="color: #447ec9" href="data/导读_2023年_3月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2023/02 | <a style="color: #447ec9" href="data/导读_2023年_2月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2023/01 | <a style="color: #447ec9" href="data/导读_2023年_1月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/12 | <a style="color: #447ec9" href="data/导读_2022年_12月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/11 | <a style="color: #447ec9" href="data/导读_2022年_11月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/10 | <a style="color: #447ec9" href="data/导读_2022年_10月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/09 | <a style="color: #447ec9" href="data/导读_2022年_9月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/08 | <a style="color: #447ec9" href="data/导读_2022年_8月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/07 | <a style="color: #447ec9" href="data/导读_2022年_7月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/06 | <a style="color: #447ec9" href="data/导读_2022年_6月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/05 | <a style="color: #447ec9" href="data/导读_2022年_5月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/04 | <a style="color: #447ec9" href="data/导读_2022年_4月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/03 | <a style="color: #447ec9" href="data/导读_2022年_3月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/02 | <a style="color: #447ec9" href="data/导读_2022年_2月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2022/01 | <a style="color: #447ec9" href="data/导读_2022年_1月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/12 | <a style="color: #447ec9" href="data/导读_2021年_12月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/11 | <a style="color: #447ec9" href="data/导读_2021年_11月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/10 | <a style="color: #447ec9" href="data/导读_2021年_10月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/09 | <a style="color: #447ec9" href="data/导读_2021年_9月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/08 | <a style="color: #447ec9" href="data/导读_2021年_8月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/07 | <a style="color: #447ec9" href="data/导读_2021年_7月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/06 | <a style="color: #447ec9" href="data/导读_2021年_6月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/05 | <a style="color: #447ec9" href="data/导读_2021年_5月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/04 | <a style="color: #447ec9" href="data/导读_2021年_4月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/03 | <a style="color: #447ec9" href="data/导读_2021年_3月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/02 | <a style="color: #447ec9" href="data/导读_2021年_2月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2021/01 | <a style="color: #447ec9" href="data/导读_2021年_1月.pdf">PDF</a>
+      </p>
+      <p>
+      <li>2020/12以前 | <a style="color: #447ec9" href="data/导读_2020年_试行.pdf">PDF</a>
+      </p>
+
+    </ol>
+
+    <h4> Personal Scratch Notes:</h4>
+
+    <ol>
+							    
+      <p>
+      <li>To be uploaded...
+      </p>
+
+     </ol>
+
+  </div>
+
+<!-- The Teach Section -->
+  <div class="w3-container w3-padding-32"" id="teach">
+    <h2>Teach</h2>
+      
+    <h4> 电磁场与波 </h4>
+
+    <ol>
+							    
+      <p>
+      <li>第二章 - 数理基础 | <a style="color: #447ec9" href="course/EM/Ch2_lec.pdf">PDF</a>
+      </p>
+      <p>
+      <li>第三章 - 静电场 | <a style="color: #447ec9" href="course/EM/Ch3_lec.pdf">PDF</a>
+      </p>
+      <p>
+      <li>第四章 - 恒定电流场 | <a style="color: #447ec9" href="course/EM/Ch4_lec.pdf">PDF</a>
+      </p>
+      <p>
+      <p>
+      <li>第五章 - 恒定磁场 | <a style="color: #447ec9" href="course/EM/Ch5_lec.pdf">PDF</a>
+      </p>
+      <p>
+      <p>
+      <li>第六章 - 静场边值问题 | <a style="color: #447ec9" href="course/EM/Ch6_lec.pdf">PDF</a>
+      </p>
+      <p>
+      <p>
+      <li>第七章 - 时变电磁场 | <a style="color: #447ec9" href="course/EM/Ch7_lec.pdf">PDF</a>
+      </p>
+      <p>
+      <p>
+      <li>第八章 - 低频近似 | <a style="color: #447ec9" href="course/EM/Ch8_lec.pdf">PDF</a>
+      </p>
+      <p>
+      <p>
+      <li>第九章 - 高频近似 | <a style="color: #447ec9" href="course/EM/Ch9_lec.pdf">PDF</a>
+      </p>
+      <p>
+
+    </ol>
+
+    <h4> 束流传输 </h4>
+
+    <ol>
+							    
+      <p>
+      <li>To be uploaded...
+      </p>
+
+     </ol>
+
+  </div>
+
+
+
+
+This webpage is modified from an elegant and neat template originated from the <a href="https://github.com/YunheWang/HomePage">source code</a>.
+
+</div>
+</body>
+</html>
